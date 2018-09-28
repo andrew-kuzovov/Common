@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>KUtil</PackageId>
+    <Authors>A.K.</Authors>
+    <Company />
+    <Product>Utilities</Product>
+    <Description>Guards, option type, some common extensions</Description>
+    <PackageTags>Guard MayBe Option Common Extensions</PackageTags>
+    <AssemblyName>KUtil.Common</AssemblyName>
+    <RootNamespace>KUtil.Common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Guards\Guards.csproj" />
+    <ProjectReference Include="..\Options\Options.csproj" />
+  </ItemGroup>
+
+</Project>
